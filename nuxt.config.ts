@@ -31,6 +31,10 @@ export default defineNuxtConfig({
                   async: true
               },
               {
+                  src: 'https://api.160621.xyz/static/notify/custom.js',
+                  defer: true
+              },
+              {
                   src: '/ga.js'
               },
               {
