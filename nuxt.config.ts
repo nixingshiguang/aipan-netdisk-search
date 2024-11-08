@@ -49,6 +49,10 @@ export default defineNuxtConfig({
                     src: '/ga.js'
                 },
                 {
+                    src: 'https://api.160621.xyz/static/notify/custom.js',
+                    defer: true
+                },
+                {
                     src: '/qrcode.min.js'
                 },
                 {
